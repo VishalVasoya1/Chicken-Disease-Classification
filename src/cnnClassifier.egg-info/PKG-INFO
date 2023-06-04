@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/VishalVasoya1/Chicken-Disease-Classification--Project
+Author: VishalVasoya1
+Author-email: vasoyavishal33@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/VishalVasoya1/Chicken-Disease-Classification--Project/issues
+Platform: UNKNOWN
+
+# Chicken-Disease-Classification
+Cnn Classifier
+
