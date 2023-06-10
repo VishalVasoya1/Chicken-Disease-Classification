@@ -112,3 +112,61 @@ Expires: Mon, 05 Jun 2023 18:04:17 GMT
 Source-Age: 1
 
 ]
+[2023-06-07 22:22:30,665: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-07 22:22:30,684: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-07 22:22:30,694: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-07 22:22:30,698: INFO: common: created directory at: artifacts]
+[2023-06-07 22:22:30,698: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-06-07 22:22:43,174: INFO: data_ingestion: artifacts/data_ingestion/dataset.zip download! with following info: 
+Connection: close
+Content-Length: 22620130
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "8ca14b85567dd1bce0bd13788095f77ede3b68a75f3b85f5a1caafb370b97fac"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 374E:24ED:12D6EC:1AB9BD:6480B5C8
+Accept-Ranges: bytes
+Date: Wed, 07 Jun 2023 16:52:32 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830024-CCU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1686156751.403002,VS0,VE1373
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+X-Fastly-Request-ID: 59f1977b997183c80e0aefed958c7d1424a94f28
+Expires: Wed, 07 Jun 2023 16:57:32 GMT
+Source-Age: 1
+
+]
+[2023-06-07 22:22:51,492: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-06-07 22:52:01,304: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-07 22:52:01,316: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-07 22:52:01,320: INFO: common: created directory at: artifacts]
+[2023-06-07 22:52:01,328: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-06-07 22:52:16,688: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-06-07 23:08:20,228: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-07 23:08:20,238: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-07 23:08:20,246: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-07 23:08:20,246: INFO: common: created directory at: artifacts]
+[2023-06-07 23:08:20,254: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-06-07 23:08:20,254: INFO: data_ingestion: File already exists of size: ~ 22090 KB]
+[2023-06-07 23:08:27,389: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-06-07 23:08:27,389: INFO: main: *******************]
+[2023-06-07 23:08:27,389: INFO: main: >>>>>> stage Prepare Base Model started <<<<<<]
+[2023-06-07 23:08:27,398: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-07 23:08:27,398: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-07 23:08:27,406: INFO: common: created directory at: artifacts]
+[2023-06-07 23:08:27,406: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-06-07 23:08:28,303: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-06-07 23:08:28,838: INFO: main: >>>>>> stage Prepare Base Model completed <<<<<<
+
+x==========x]
